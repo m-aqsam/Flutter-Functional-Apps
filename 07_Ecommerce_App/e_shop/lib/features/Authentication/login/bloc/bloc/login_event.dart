@@ -8,3 +8,5 @@ final class LoginInitialEvent extends LoginEvent {}
 final class LoginButtonNavigateClickedEvent extends LoginEvent {}
 
 final class LoginCreateAccountNavigateClickedEvent extends LoginEvent {}
+
+final class LoginForgotPasswordNavigateClickedEvent extends LoginEvent {}
