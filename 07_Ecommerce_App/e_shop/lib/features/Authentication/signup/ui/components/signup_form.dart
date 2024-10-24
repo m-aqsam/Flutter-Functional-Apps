@@ -87,7 +87,6 @@ class SignUp_Form extends StatelessWidget {
               prefixIcon: Icon(Iconsax.lock),
               suffixIcon: Icon(Iconsax.eye_slash),
             ),
-            //
           ),
         ],
       ),
