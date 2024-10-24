@@ -58,4 +58,11 @@ class ETexts {
   static const String successScreenTitle = "Your Account Successfully created!";
   static const String successScreenDescription =
       "You can now enjoy a seamless shopping experience with Eshop Explore a wide range of products tailored to your needs Happy shopping and thank you for choosing us!";
+
+  // -- Forgot Password
+
+  static const String forgotPasswordTitle = "Forgot Password?";
+  static const String forgotPasswordSubTitle =
+      "Don't worry sometimes people forget things. Enter your email address and we'll send you a link to reset your password.";
+  static const String forgotPasswordButton = "Submit";
 }
