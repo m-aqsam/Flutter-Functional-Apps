@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math';
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
@@ -11,6 +12,8 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
     on<LoginButtonNavigateClickedEvent>(loginButtonNavigateClickedEvent);
     on<LoginCreateAccountNavigateClickedEvent>(
         loginCreateAccountNavigateClickedEvent);
+    on<LoginForgotPasswordNavigateClickedEvent>(
+        loginForgotPasswordNavigateClickedEvent);
   }
 
   FutureOr<void> loginButtonNavigateClickedEvent(
@@ -22,5 +25,10 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
       LoginCreateAccountNavigateClickedEvent event, Emitter<LoginState> emit) {
     print("Create Account Button Clicked");
     emit(LoginNavigateToCreateAccountPageActionState());
+  }
+
+  FutureOr<void> loginForgotPasswordNavigateClickedEvent(
+      LoginForgotPasswordNavigateClickedEvent event, Emitter<LoginState> emit) {
+    emit(LoginNavigateToLForgotPassword());
   }
 }
