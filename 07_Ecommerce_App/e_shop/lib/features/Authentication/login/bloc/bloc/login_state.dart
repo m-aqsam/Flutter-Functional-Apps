@@ -15,3 +15,5 @@ final class LoginNavigateToCreateAccountPageActionState
     extends LoginActionState {}
 
 final class LoginNavigateToLoginPageActionState extends LoginActionState {}
+
+final class LoginNavigateToLForgotPassword extends LoginActionState {}
