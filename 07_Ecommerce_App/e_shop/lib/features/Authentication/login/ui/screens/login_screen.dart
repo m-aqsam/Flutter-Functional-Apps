@@ -2,6 +2,7 @@
 
 import 'package:e_shop/common/styles/spacing_style.dart';
 import 'package:e_shop/features/Authentication/login/bloc/bloc/login_bloc.dart';
+import 'package:e_shop/features/Authentication/password_configuration/forgot_password.dart';
 import 'package:e_shop/features/Authentication/signup/ui/screens/signup_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:e_shop/common/widgets/form_divider.dart';
@@ -40,6 +41,14 @@ class _Login_ScreenState extends State<Login_Screen> {
                 context,
                 MaterialPageRoute(
                   builder: (context) => Signup_Screen(),
+                ));
+          }
+
+          if (state is LoginNavigateToLForgotPassword) {
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Forgot_Password(),
                 ));
           }
         },
@@ -116,7 +125,10 @@ class _Login_ScreenState extends State<Login_Screen> {
                                   ],
                                 ),
                                 TextButton(
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      loginBloc.add(
+                                          LoginForgotPasswordNavigateClickedEvent());
+                                    },
                                     child: Text(
                                       ETexts.loginForgotPassword,
                                     )),
