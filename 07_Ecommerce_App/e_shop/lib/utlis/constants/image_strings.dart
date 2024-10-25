@@ -18,6 +18,11 @@ class EImages {
   static String onBoardingImage3 =
       "assets/images/on_boarding_images/deliver-product.gif";
 
+   // Forgot password Page Images
+
+  static String emailLinkSend =
+      "assets/images/login_page_images/email_link_send.png";
+
   // Animations Images
 
   static String animationAccountCreated =
