@@ -62,7 +62,13 @@ class ETexts {
   // -- Forgot Password
 
   static const String forgotPasswordTitle = "Forgot Password?";
+
   static const String forgotPasswordSubTitle =
       "Don't worry sometimes people forget things. Enter your email address and we'll send you a link to reset your password.";
   static const String forgotPasswordButton = "Submit";
+  static const String forgotPasswordEmailSendTittle =
+      "Password Reset Email Sent";
+  static const String forgotPasswordEmailSendDescription =
+      "We have sent a password reset link to your email address. Please check your email and follow the instructions to reset your password.";
+  static const String forgotPasswordEmailDone = "Done";
 }
