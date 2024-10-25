@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:e_shop/common/styles/spacing_style.dart';
+import 'package:e_shop/features/Authentication/password_configuration/reset_password.dart';
 import 'package:e_shop/utlis/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
@@ -50,7 +51,13 @@ class Forgot_Password extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Reset_Password(),
+                      ));
+                },
                 child: Text(ETexts.forgotPasswordButton),
               ),
             ),
