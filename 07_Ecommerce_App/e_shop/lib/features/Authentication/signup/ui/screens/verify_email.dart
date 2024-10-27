@@ -101,7 +101,6 @@ class Verify_Email_Screen extends StatelessWidget {
                     onPressed: () {}, child: Text(ETexts.verifyEmailResend)),
               ),
             ],
-            //
           ),
         ),
       ),
