@@ -12,7 +12,9 @@ class Forgot_Password extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        
+      ),
       body: Padding(
         padding: ESpacingStyle.paddingWithAppBarHeight,
         child: Column(
