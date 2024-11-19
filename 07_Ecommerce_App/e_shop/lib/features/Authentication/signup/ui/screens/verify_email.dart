@@ -35,7 +35,7 @@ class Verify_Email_Screen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              //***************  Image ***************
+              //****************  Image ***************
 
               Image(
                 width: EHelperFunctions.screenWidth() * 0.6,
