@@ -20,4 +20,3 @@ class Splash extends StatelessWidget {
     );
   }
 }
-//
