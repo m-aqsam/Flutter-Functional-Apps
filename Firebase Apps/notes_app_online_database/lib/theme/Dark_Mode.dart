@@ -10,4 +10,3 @@ ThemeData darkMode = ThemeData(
         tertiary: Colors.black, //text
         inversePrimary: Colors.grey.shade900 //icons
         ));
-        //
