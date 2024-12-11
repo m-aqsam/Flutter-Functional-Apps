@@ -4,7 +4,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:notes_app_online_database/firebase_options.dart';
 import 'package:notes_app_online_database/pages/Home_Page.dart';
-import 'package:notes_app_online_database/pages/Splash.dart';
 import 'package:notes_app_online_database/theme/Theme_Provider.dart';
 import 'package:provider/provider.dart';
 
@@ -35,3 +34,8 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+  // * Built using Flutter with ❤️ by Aqsam.
+  // ! Give Your Feedback
+  // ? Got any question
+  // Todo: Let's Connect
