@@ -27,7 +27,6 @@ class Smooth_Page_Indicator extends StatelessWidget {
           dotColor: EColors.darkGrey,
           dotHeight: 8,
         ),
-        //
       ),
     );
   }
