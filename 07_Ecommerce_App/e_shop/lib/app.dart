@@ -13,7 +13,9 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OnBoardingScreen(),
+      home: Scaffold(
+        body: Text("Hello World"),
+      ),
       themeMode: ThemeMode.system,
       theme: EShopTheme.lightTheme,
       darkTheme: EShopTheme.darkTheme,
