@@ -102,6 +102,7 @@ class Verify_Email_Screen extends StatelessWidget {
               ),
             ],
           ),
+          //
         ),
       ),
     );
