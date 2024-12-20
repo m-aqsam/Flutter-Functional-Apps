@@ -44,6 +44,7 @@ class OnBoardingPage extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
           ),
+          //
         ],
       ),
     );
