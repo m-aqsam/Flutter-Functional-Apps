@@ -21,7 +21,6 @@ class Rounded_Button extends StatelessWidget {
           shape: CircleBorder(
             side: BorderSide(),
           ),
-          //
         ),
         child: Icon(Iconsax.arrow_right_3),
       ),
