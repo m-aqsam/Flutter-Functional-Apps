@@ -27,7 +27,7 @@ class EShopTheme {
     checkboxTheme: ECheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: EBottomSheetTheme.lightBottomSheetTheme,
   );
-  //
+
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     fontFamily: GoogleFonts.poppins().fontFamily,
