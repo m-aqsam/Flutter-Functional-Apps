@@ -9,6 +9,5 @@ class SignupBloc extends Bloc<SignupEvent, SignupState> {
     on<SignupEvent>((event, emit) {
       // TODO: implement event handler
     });
-    //
   }
 }
