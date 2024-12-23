@@ -10,4 +10,5 @@ class SignupBloc extends Bloc<SignupEvent, SignupState> {
       // TODO: implement event handler
     });
   }
+  //
 }
