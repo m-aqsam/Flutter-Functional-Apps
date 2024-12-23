@@ -15,18 +15,6 @@ class Reset_Password extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        actions: [
-          IconButton(
-            onPressed: () {
-              Navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => Login_Screen(),
-                  ));
-            },
-            icon: Icon(Icons.close),
-          ),
-        ],
       ),
       body: Padding(
         padding: ESpacingStyle.paddingWithAppBarHeight,
