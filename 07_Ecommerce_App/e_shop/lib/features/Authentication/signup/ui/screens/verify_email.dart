@@ -27,6 +27,7 @@ class Verify_Email_Screen extends StatelessWidget {
             },
             icon: Icon(Icons.close),
           ),
+          //
         ],
       ),
       body: SingleChildScrollView(
