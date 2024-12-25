@@ -19,6 +19,5 @@ class App extends StatelessWidget {
       theme: EShopTheme.lightTheme,
       darkTheme: EShopTheme.darkTheme,
     );
-    //
   }
 }
