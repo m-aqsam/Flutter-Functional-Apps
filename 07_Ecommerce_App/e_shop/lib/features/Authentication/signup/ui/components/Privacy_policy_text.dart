@@ -38,7 +38,6 @@ class Privacy_Policy_Text extends StatelessWidget {
                 style: TextStyle(
                   color: Theme.of(context).primaryColor,
                 ),
-                //
               ),
             ],
           ),
