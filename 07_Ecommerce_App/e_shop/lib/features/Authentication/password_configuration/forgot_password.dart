@@ -61,7 +61,6 @@ class Forgot_Password extends StatelessWidget {
                 child: Text(ETexts.forgotPasswordButton),
               ),
             ),
-            //
           ],
         ),
       ),
