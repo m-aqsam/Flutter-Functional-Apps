@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:e_shop/common/styles/spacing_style.dart';
-import 'package:e_shop/features/Authentication/login/ui/screens/login_screen.dart';
 import 'package:e_shop/utlis/constants/image_strings.dart';
 import 'package:e_shop/utlis/constants/text_strings.dart';
 import 'package:e_shop/utlis/helpers/helper_functions.dart';
