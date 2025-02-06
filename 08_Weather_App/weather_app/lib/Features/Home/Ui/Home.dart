@@ -13,7 +13,6 @@ class Home_Page extends StatelessWidget {
         child: Text(
           'This is the Home Page',
           style: TextStyle(fontSize: 24),
-          //
         ),
       ),
     );
