@@ -9,7 +9,7 @@ import 'package:shopping_app/features/Home/Models/Grocery_Model.dart';
 class CartTileWidget extends StatelessWidget {
   final ProductDataModel productDataModel;
   final CartBloc cartBloc;
-  CartTileWidget({
+  const CartTileWidget({
     super.key,
     required this.productDataModel,
     required this.cartBloc,
@@ -63,7 +63,7 @@ class CartTileWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                '\$ ' + productDataModel.price.toString(),
+                '\$ ${productDataModel.price}',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,

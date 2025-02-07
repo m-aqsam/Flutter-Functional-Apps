@@ -26,8 +26,9 @@ class _Home_PageState extends State<Home_Page> {
   Widget build(BuildContext context) {
     return BlocConsumer<HomeBloc, HomeState>(
       bloc: homeBloc,
-      buildWhen: (previous, current) => current is! HomeActionState,
       listenWhen: (previous, current) => current is HomeActionState,
+      buildWhen: (previous, current) => current is! HomeActionState,
+      
       listener: (context, state) {
         if (state is HomeNavigateToCartPageActionState) {
           Navigator.push(

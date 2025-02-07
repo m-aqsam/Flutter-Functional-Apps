@@ -10,7 +10,7 @@ import 'package:shopping_app/features/Wishlist/Bloc/bloc/wishlist_bloc.dart';
 class WishlistTileWidget extends StatelessWidget {
   final ProductDataModel productDataModel;
   final WishlistBloc wishlistBloc;
-  WishlistTileWidget({
+  const WishlistTileWidget({
     super.key,
     required this.productDataModel,
     required this.wishlistBloc,
@@ -64,7 +64,7 @@ class WishlistTileWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                '\$ ' + productDataModel.price.toString(),
+                '\$ ${productDataModel.price}',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
