@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:shopping_app/features/Cart/Bloc/bloc/cart_bloc.dart';
-import 'package:shopping_app/features/Home/Bloc/bloc/home_bloc.dart';
 
 import 'package:shopping_app/features/Home/Models/Grocery_Model.dart';
 
