@@ -62,6 +62,7 @@ class Reset_Password extends StatelessWidget {
               child: TextButton(
                   onPressed: () {}, child: Text(ETexts.verifyEmailResend)),
             ),
+            //
           ],
         ),
       ),
