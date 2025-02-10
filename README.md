@@ -1,5 +1,5 @@
 
-# All the Applications in this repo are build using Flutter with ❤️.....
+# All the Applications in this repo are build using Flutter with ❤️......
 
 
 
