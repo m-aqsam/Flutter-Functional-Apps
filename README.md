@@ -3,7 +3,7 @@
 
 
 
-This Repo is the collection of flutter functional applications are design and develop by - [@m-aqsam](https://github.com/m-aqsam) using flutter with ❤️..
+This Repo is the collection of flutter functional applications are design and develop by - [@m-aqsam](https://github.com/m-aqsam) using flutter with ❤️.
 
 # 1 : ToDo App 📱
 
